@@ -1,10 +1,8 @@
 package guru.qa.tests;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Tags;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
+@Tag("simple")
 public class ManyTests {
     @Test
     void successedTest1(){
