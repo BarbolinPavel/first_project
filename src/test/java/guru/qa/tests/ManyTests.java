@@ -25,7 +25,7 @@ public class ManyTests {
         Assertions.assertEquals("Good","Good");
     }
     @Test
-//    @Disabled
+    @Disabled
     void failTest5(){
         Assertions.assertEquals("Good","Bad");
     }
